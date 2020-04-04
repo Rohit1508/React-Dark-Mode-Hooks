@@ -23,7 +23,7 @@ html[data-theme="dark"]  {
 ```
 
 * Create a component `DarkModeToggle`, you will find the component in `DarkMode` folder.
-... we are using react hooks and localStorage to implement this component.
+we are using react hooks and localStorage to implement this component.
 ```javascript
  const toggleThemeChange = () => {;
     if (checked === false) {
