@@ -17,7 +17,7 @@ const DarkModeToggle = () => {
       document
         .getElementsByTagName("HTML")[0]
         .setAttribute("data-theme", localStorage.getItem("theme"));
-     setChecked(true);
+      setChecked(true);
     } else {
       localStorage.setItem("theme", "light");
       document
